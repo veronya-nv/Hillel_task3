@@ -1,0 +1,44 @@
+/* Указываем box sizing */
+* {
+  margin: 0;
+  padding: 0;
+  
+},
+  
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img{
+  width: 80%;
+  height: 140%; 
+}
+
+h2 {
+  font-style: italic;
+}
+
+
+.wrapper {
+  height: 100%;
+}
+.main_info {
+  border: 2px solid red;
+  height: 40%;
+  padding: 10px;
+  display: flex;
+  justify-content:space-around;
+}
+
+.main_info.photo {
+  border: 2px solid yellowgreen;
+  height: 40%;
+  padding: 10px;
+}
+
+.main_info.item {
+  border: 2px solid blue;
+  height: 40%;
+  padding: 10px;
+}
